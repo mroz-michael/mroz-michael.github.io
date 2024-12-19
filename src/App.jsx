@@ -1,4 +1,3 @@
-
 import './styles/App.css'
 import Home from './components/Home';
 import Projects from './components/Projects'
