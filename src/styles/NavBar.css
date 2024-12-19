@@ -1,0 +1,5 @@
+#nav_links {
+    display: flex;
+    margin-right: 5rem;
+    gap: 2rem;
+}

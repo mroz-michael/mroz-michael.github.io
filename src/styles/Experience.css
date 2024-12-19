@@ -1,0 +1,84 @@
+#experience_section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#experience_main_header {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    font-size: large;
+    margin-top: 10%;
+}
+
+#experience_title_container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 40px;
+}
+
+#academic_experience > p {
+    margin-bottom: 2px;
+}
+
+.experience_section_header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.experience_section_header > p {
+    font-size: 1.2rem;
+}
+
+.experience_section_header > :first-child {
+    font-size: 2rem;
+}
+
+.gpa, .job_header > p{
+    font-size: 1rem;
+}
+
+.gpa {
+    color: #666;
+    margin-top: 0;
+}
+
+.job_header {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+@media screen and (min-width: 900px) {
+    
+    #experience_main_header {
+        flex-direction: row;
+        align-items: baseline;
+        font-size: 2.5vw;
+        margin-top: 2%;
+    }
+
+    #experience_title_container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .event_info {
+        flex-direction: row;
+        margin-top: 2rem;
+        gap: 7rem;
+        align-items: flex-start;
+    }
+
+    .experience_section_header > p {
+        font-size: 28px;
+    }
+    
+    
+    
+}
