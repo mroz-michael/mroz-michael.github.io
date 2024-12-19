@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" role="img" aria-label="Stylized M with smiley">
+  <!-- Background -->
+  <rect width="100" height="100" fill="lightyellow" />
+  
+  <!-- Letter M -->
+  <path d="M20 80 L20 20 L40 60 L60 20 L60 80" fill="none" stroke="black" stroke-width="6" transform="translate(10, 0)" />
+</svg>
