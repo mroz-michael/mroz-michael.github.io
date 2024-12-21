@@ -13,12 +13,12 @@ const NavBar = ({ignoreLogo}) => {
             <a href='/'> <FaHome fill="black"/> </a>
             {
                 ignoreLogo !== "projects" &&
-                <a href='/projects'><AiOutlineExperiment color="black"/> </a>
+                <a href='/#/projects'><AiOutlineExperiment color="black"/> </a>
             }
             
             {
                 ignoreLogo !== "experience" &&
-                <a href='/experience'> <LuScrollText color="black" /> </a>
+                <a href='/#/experience'> <LuScrollText color="black" /> </a>
             }
 
             <a href="https://github.com/mroz-michael/" target="#"><SiGithub fill="black"/></a>
