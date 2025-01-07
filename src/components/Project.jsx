@@ -1,7 +1,7 @@
 import { FaJava, FaNode} from "react-icons/fa6";
 import { IoLogoPython, IoLogoCss3, IoLogoReact, IoLogoJavascript, IoLogoHtml5,  } from "react-icons/io5";
 import { DiMongodb } from "react-icons/di";
-import { SiExpress, SiGithub } from "react-icons/si";
+import { SiExpress, SiGithub, SiMysql, SiJunit5 } from "react-icons/si";
 
 
 
@@ -16,7 +16,9 @@ const Project = ({name, description, tech_used, url}) => {
         "js": <IoLogoJavascript />,
         "html": <IoLogoHtml5/>, 
         "mongodb": <DiMongodb />,
-        "express": <SiExpress />
+        "express": <SiExpress />,
+        "mysql": <SiMysql />,
+        "junit": <SiJunit5 />
     }
 
     

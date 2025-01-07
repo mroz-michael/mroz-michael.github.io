@@ -8,6 +8,12 @@ import NavBar from "./NavBar";
 const Projects = () => {
     const navigate = useNavigate();
     const projectData = [
+        {
+            "name": "Expense Tracker",
+            "description": "I'm currently developing an expense tracker Java app equipped with user authentication, integrating a MySQL database and JUnit testing.",
+            "tech_used": ["java", "mysql", "junit"],
+            "github_link": "https://github.com/mroz-michael/expense_tracker"
+        },
 
         {"name": "Compiler Front End",
             "description": "A scanner and parser that tokenize and parse txt file input according to a JSON-like grammar.",

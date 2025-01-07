@@ -26,9 +26,7 @@ const Experience = () => {
                 </header>
                 <ul>
                     <li>I'm currently in the 2nd year of a Bachelor of Computer Science from Dalhousie University</li>
-                    <p className='gpa'>GPA as of Fall 2024: 4.25/4.30</p>
-                    <li> I also have a degree in General Business studies from Athabasca University</li>
-                    <p className="gpa">GPA: 4.0/4.0</p>
+                    <p className='gpa'>GPA as of Winter 2025: 4.23/4.30</p>
                 </ul>
             </section>
 
